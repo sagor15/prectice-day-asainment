@@ -34,17 +34,22 @@ p {
   text-transform: capitalize;
   font-size: 22px;
   border: 2px solid rgb(189, 185, 178);
-  background-image: linear-gradient(#FFB328, #F9755E);
+  background-image: linear-gradient(#ffb328, #f9755e);
   padding: 10px 40px;
   color: white;
   margin-left: 160px;
   display: inline-block;
-  margin-top:35px;
+  margin-top: 35px;
   border-radius: 8px;
 }
-.button:hover{
-    box-shadow: 10px 10px 10px 5px gray;
+.button:hover {
+  box-shadow: 10px 10px 10px 5px gray;
 }
-.first-style{
-    color: orange;
+.first-style {
+  color: orange;
+}
+.first-section {
+  background-image: url(dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
