@@ -3,4 +3,48 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-family: "Spline Sans", sans-serif;
+  background-color: black;
+  color: white;
+}
+.div-same {
+  width: 80%;
+  padding-left: 15px;
+}
+.main-div {
+  display: flex;
+}
+.div-same img {
+  width: 69%;
+  padding-left: 21px;
+}
+h1 {
+  padding-left: 15px;
+  font-size: 50px;
+}
+h2 {
+  font-size: 35px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+.button {
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 22px;
+  border: 2px solid rgb(189, 185, 178);
+  background-image: linear-gradient(#FFB328, #F9755E);
+  padding: 10px 40px;
+  color: white;
+  margin-left: 160px;
+  display: inline-block;
+  margin-top:35px;
+  border-radius: 8px;
+}
+.button:hover{
+    box-shadow: 10px 10px 10px 5px gray;
+}
+.first-style{
+    color: orange;
 }
